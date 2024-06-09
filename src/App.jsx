@@ -1,13 +1,20 @@
+import { Outlet, ScrollRestoration } from 'react-router-dom'
 import './App.css'
 
-import Banner from './components/Banner'
+import Footer from './components/Footer'
+import Navbar from './components/Navbar'
 
 function App() {
-  
   return (
     <>
-    <Banner />
+      <Navbar />
+      <Outlet />
+      <Footer />
+      <ScrollRestoration />
+
+
     </>
+
   )
 }
 
