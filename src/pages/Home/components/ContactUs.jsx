@@ -41,14 +41,14 @@ const ContactUs = () => {
         .from('p', {
           opacity: 0,
           y: -10,
-        }, '>-0.2')
+        }, '>-0.3')
         .from('form .label-input', {
           opacity: 0,
-          stagger: 0.3,
-        }, '>-0.3')
+          stagger: 0.15,
+        }, '<-=0.15')
         .from('button', {
           opacity: 0,
-        }, '>-0.2')
+        }, '>-0.25')
 
     },
     { scope: container }
@@ -56,7 +56,7 @@ const ContactUs = () => {
 
   return (
     <section id='contact-us' ref={container}>
-      <div className="container mx-auto px-4 md:px-20 pt-20 pb-10">
+      <div className="container mx-auto px-4 md:px-20 pt-16 pb-10">
 
         <h2 className='text-center text-tangerine-500 text-4xl sm:text-6xl font-extrabold mb-3'>Send us a message!</h2>
         <p className='text-center xl:px-72 mb-10'>Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores molestiae dolorem rerum rem iste numquam</p>
@@ -66,7 +66,7 @@ const ContactUs = () => {
           <LabelInput label='email adress' email={true} />
           <LabelInput label='your message' placeHolder={'Feel free to leave a message!'} />
           <div className='flex align-center'>
-            <button className='bg-tangerine-500 my-auto py-2 px-8 text-lg font-extrabold rounded-full hover:scale-105 transition-transform active:bg-tangerine-600'>Call to Action</button>
+            <button className='bg-tangerine-500 my-auto py-2 px-8 text-lg font-extrabold rounded-full hover:scale-105 transition-transform active:bg-tangerine-600'>Contact Us</button>
           </div>
 
         </form>

@@ -26,7 +26,7 @@ const Video = () => {
 
   return (
     <section id='video'>
-      <div className="container mx-auto flex flex-wrap py-20 justify-center items-center sm:px-10 xl:px-40">
+      <div className="container mx-auto flex flex-wrap py-16 justify-center items-center sm:px-10 xl:px-40">
         <h2 className='capitalize mb-6 text-5xl sm:text-5xl md:text-5xl lg:text-7xl 2xl:text-8xl font-extrabold text-center sm:text-left text-lochmara-600'>video production</h2>
         <div className="carousel-container w-full max-w-screen-lg sm:max-w-none md:w-full px-6 sm:px-4 md:px-0 md:flex md:space-x-3 md:justify-center ">
           <div className="buttons justify-center items-center w-1/12 hidden md:flex">

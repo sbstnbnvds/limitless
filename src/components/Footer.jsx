@@ -26,8 +26,8 @@ const Footer = () => {
         </div>
         <ul className='flex space-x-10 sm:space-x-0 sm:space-y-3 sm:flex-col sm:mr-16 lg:mr-40 xl:mr-48 text-lg'>
           <li><a href="">Home</a></li>
-          <li><a href="">Services</a></li>
-          <li><a href="">Contact</a></li>
+          <li><a href="">Portfolio</a></li>
+          <li><a href="">Contact Us</a></li>
         </ul>
       </div>
       <div className='flex justify-end'>
