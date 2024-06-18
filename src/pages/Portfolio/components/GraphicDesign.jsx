@@ -3,10 +3,18 @@ import React, { useState } from 'react'
 import nextIcon from '../../../assets/images/Portfolio/next-icon.svg';
 import prevIcon from '../../../assets/images/Portfolio/prev-icon.svg';
 
+// Graphic Design Portfolio 
+import GraphicDesign1 from '../../../assets/images/Portfolio/Graphic Design/Framework_BEC.png'
+import GraphicDesign2 from '../../../assets/images/Portfolio/Graphic Design/Grassroots Bitcoin- Bitcoin Park.jpeg'
+import GraphicDesign3 from '../../../assets/images/Portfolio/Graphic Design/RocketCityBitcoin.png'
+import GraphicDesign4 from '../../../assets/images/Portfolio/Graphic Design/The Power of Lightning Summit_1.png'
+
+
 const pictures = [
-  'https://picsum.photos/400/600',
-  'https://picsum.photos/600/600',
-  'https://picsum.photos/800/600',
+  GraphicDesign1,
+  GraphicDesign2,
+  GraphicDesign3,
+  GraphicDesign4
 ]
 
 

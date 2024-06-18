@@ -3,10 +3,15 @@ import React, { useState } from 'react'
 import nextIcon from '../../../assets/images/Portfolio/next-icon.svg';
 import prevIcon from '../../../assets/images/Portfolio/prev-icon.svg';
 
+// WebDev Portfolio
+import WebDev1 from '../../../assets/images/Portfolio/Web Design/webdev1.png'
+import WebDev2 from '../../../assets/images/Portfolio/Web Design/webdev2.png'
+import WebDev3 from '../../../assets/images/Portfolio/Web Design/webdev3.png'
+
 const pictures = [
-  'https://picsum.photos/400/600',
-  'https://picsum.photos/600/600',
-  'https://picsum.photos/800/600',
+  WebDev1,
+  WebDev2,
+  WebDev3,
 ]
 
 const WebDesign = () => {

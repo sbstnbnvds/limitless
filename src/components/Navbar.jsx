@@ -18,10 +18,10 @@ const Navbar = () => {
       name: 'services',
       hashLink: '#services',
     },
-    {
-      name: 'contact us',
-      hashLink: '#contact-us',
-    },
+    // {
+    //   name: 'contact us',
+    //   hashLink: '#contact-us',
+    // },
     {
       name: 'portfolio',
       link: 'portfolio',
@@ -48,10 +48,10 @@ const Navbar = () => {
       name: 'video',
       hashLink: 'portfolio#video',
     },
-    {
-      name: 'contact us',
-      hashLink: '#contact-us',
-    },
+    // {
+    //   name: 'contact us',
+    //   hashLink: '#contact-us',
+    // },
   ]
 
   const [navItems, setNavItems] = useState(navItemsHome)

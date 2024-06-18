@@ -3,12 +3,15 @@ import React from 'react'
 import logo from '../assets/images/logo.svg'
 
 import twitterIcon from '../assets/images/twitter-icon.svg';
+import linkedinIcon from '../assets/images/linkedin-icon.svg';
 import youtubeIcon from '../assets/images/youtube-icon.svg';
 import whatsappIcon from '../assets/images/whatsapp-icon.svg';
 import instagramIcon from '../assets/images/instagram-icon.svg';
 
-const Icon = ({ src }) => {
-  return (<img src={src} alt="" className='' />)
+const Icon = ({ src, url }) => {
+  return (<a className='cursor-pointer flex' href={url}>
+    <img src={src} alt="" className='w-5' />
+  </a>)
 }
 const Footer = () => {
   return (
@@ -18,16 +21,18 @@ const Footer = () => {
         <div className='flex flex-col items-center sm:items-start w-full sm:w-4/12 lg:w-3/12'>
           <img src={logo} alt="" className='mb-3 sm:mb-4 w-8/12 sm:w-full' />
           <div className='flex media-wrapper justify-between w-7/12 sm:w-11/12 lg:w-10/12'>
-            <Icon src={twitterIcon} />
-            <Icon src={youtubeIcon} />
+
+            <Icon src={linkedinIcon} url='https://www.linkedin.com/company/thelimitlessmedia'/>
+            <Icon src={twitterIcon} url='https://x.com/limitlessmediac' />
+            {/* <Icon src={youtubeIcon} />
             <Icon src={whatsappIcon} />
-            <Icon src={instagramIcon} />
+            <Icon src={instagramIcon} /> */}
           </div>
         </div>
         <ul className='flex space-x-10 sm:space-x-0 sm:space-y-3 sm:flex-col sm:mr-16 lg:mr-40 xl:mr-48 text-lg'>
-          <li><a href="">Home</a></li>
-          <li><a href="">Portfolio</a></li>
-          <li><a href="">Contact Us</a></li>
+          {/* <li><a href="">Home</a></li>
+          <li><a href="">Portfolio</a></li> */}
+          {/* <li><a href="">Contact Us</a></li> */}
         </ul>
       </div>
       <div className='flex justify-end'>

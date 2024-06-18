@@ -9,7 +9,7 @@ const BannerButton = () => {
     <div>
       <button className='flex text-xl mx-auto bg-tangerine-500 px-8 py-2 rounded-full font-bold hover:scale-110 transition-transform active:bg-tangerine-600' onClick={()=> setIsOpen(true)}>Book A Meeting</button>
       <PopupModal
-          url="https://calendly.com/thelimitlessmedia1"
+          url="https://calendly.com/thelimitlessmedia"
           // pageSettings={this.props.pageSettings}
           // utm={this.props.utm}
           // prefill={this.props.prefill}
