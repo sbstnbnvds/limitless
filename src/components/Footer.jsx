@@ -9,8 +9,8 @@ import whatsappIcon from '../assets/images/whatsapp-icon.svg';
 import instagramIcon from '../assets/images/instagram-icon.svg';
 
 const Icon = ({ src, url }) => {
-  return (<a className='cursor-pointer flex' href={url}>
-    <img src={src} alt="" className='w-5' />
+  return (<a className='cursor-pointer flex mr-0' href={url}>
+    <img src={src} alt="" className='w-7' />
   </a>)
 }
 const Footer = () => {
@@ -20,7 +20,7 @@ const Footer = () => {
 
         <div className='flex flex-col items-center sm:items-start w-full sm:w-4/12 lg:w-3/12'>
           <img src={logo} alt="" className='mb-3 sm:mb-4 w-8/12 sm:w-full' />
-          <div className='flex media-wrapper justify-between w-7/12 sm:w-11/12 lg:w-10/12'>
+          <div className='flex media-wrapper w-7/12 sm:w-11/12 lg:w-10/12 space-x-5'>
 
             <Icon src={linkedinIcon} url='https://www.linkedin.com/company/thelimitlessmedia'/>
             <Icon src={twitterIcon} url='https://x.com/limitlessmediac' />
